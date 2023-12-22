@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #F2F1EB;
+}
+.projects{
+  margin-top: 100px;
+}
+h1{
+  font-family: sans-serif;
+}
+.navbar-brand{
+  font-family: cursive;
+}
+.navbar-brand img{
+  width: 20%;
+}.navbar-expand-lg .navbar-collapse {
+ 
+  padding-left: 419px;
+}
+nav {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+}
+
+
+.abt{
+    margin: 4%;
+}
+.cards{
+    margin: 5%;
+}
+.card:hover img{
+    background-color: orange;
+}
+.parallax {
+    margin-top: 5%;
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1472669876562-4dacf98c6a67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGNvbnN0cnVjdGlvbiUyMGJsdXIlMjBpbWd8ZW58MHx8MHx8fDA%3D");
+  
+    /* Set a specific height */
+    min-height: 500px;
+    
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #paralax{
+    font-family: sans-serif;
+    font-size: 200%;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.progress{
+    width: 10%;
+}
+
+  #mt{
+    margin-top: 5%;
+  }
+  .card{
+    margin-top: 5%;
+  }
+  footer{
+    color: #1a1919;
+    background-color: #EBE3D5;
+  }
+  h4{
+    color:#fb8c24b6;
+  }
+  footer{
+    color: #1a1919;
+    background-color: #EBE3D5;
+  }
+  h5 {
+    font-size: 1rem;
+    text-align: center;
+}
+.card-text{
+  text-align: center;
+}
+  footer li{
+    text-decoration: none;
+    list-style: none;
+    color: #181817;
+  }
+  .h6, h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+/* --------------responsive------------- */
+  @media(max-width:1078px){
+    #top{
+      font-size: 24px;
+    }
+  }
+  @media(max-width:1050px){
+    
+  }
+  @media(max-width:1010px){
+    .lead {
+      font-size: 1.2rem;
+      font-weight: 300;
+  }
+  h5 {
+    font-size: 1rem;
+}
+}
+@media(max-width:1000px){
+  
+}
+@media(max-width:950px){
+
+}
+@media(max-width:900px){
+  #top {
+    font-size: 18px;
+}
+h1 {
+  font-size: 36px;
+}
+  .lead {
+    font-size: 15px;
+    font-weight: 300;
+}
+}
+@media(max-width:850px){
+}
+@media(max-width:800px){
+}
+@media(max-width:767px){
+  .col-md-5 img{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media(max-width:750px){
+  .col-md-5 img{
+    width: 100%;
+    height: 100%;
+  }
+  .card-deck{
+    flex-wrap: wrap;
+  }
+  #para {
+    font-size: 14px;
+  }
+  .card-title{
+    font-size: 13px;
+  }
+  
+}
+@media(max-width:650px){
+  .navbar-expand-lg .navbar-collapse {
+    padding-left: 100px;
+    
+}
+}
+@media(max-width:456px){
+  .navbar-toggler-icon {
+   
+    width: 18px;
+    height: 18px;
+  }
+.navbar-expand-lg .navbar-collapse {
+ 
+  font-size: 12px;
+  height: 25vh;
+}
+}
+@media(max-width:365px) {
+  .navbar-brand img {
+    width: 18%;
+  }
+  .navbar{
+    flex-wrap: nowrap;
+  }
+}
+
+
+  
+  
+  
