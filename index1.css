@@ -324,32 +324,6 @@ h6 {
   }
 }
 
-@media(max-width:375px) {
-  /* .navbar-brand img {
-    width: 20%;
-  } */
-}
 
-@media screen and (max-width: 370px)
-/* .navbar{
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    flex-direction: row !important;
-  }
-} */
-/* 
- @media(max-width:365px) {
-  .navbar-brand img {
-    width: 18%;
-  }
 
-  .navbar {
-    flex-wrap: nowrap;
-  }
 
- } 
-@media(max-width:300px){
-  .crousal{
-    ma.crousalrgin-top: 77px;
-  }
- */
