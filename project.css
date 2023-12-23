@@ -12,7 +12,7 @@ body{
     font-family: cursive;
    }
    nav{
-    position: fixed;
+    /* position: fixed; */
     inset: 0;
     z-index: 999;
   }

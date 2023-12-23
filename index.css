@@ -21,6 +21,9 @@ nav {
   inset: 0;
   z-index: 999;
 }
+.navbar-expand-lg .navbar-collapse {
+  padding-left: 307px;
+}
 
 .navbar-brand img {
   width: 20%;
@@ -57,7 +60,7 @@ nav {
 }
 
 .abt {
-  margin: 5%;
+ margin:15%;
 }
 
 .d-flex {

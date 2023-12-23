@@ -5,9 +5,11 @@
 body{
   background-color: #F2F1EB;
 }
-.projects{
-  margin-top: 100px;
-}
+.abt{
+  
+  margin: 5%;
+}  
+
 h1{
   font-family: sans-serif;
 }
@@ -21,15 +23,13 @@ h1{
   padding-left: 419px;
 }
 nav {
-  position: fixed;
+  /* position: fixed; */
   inset: 0;
   z-index: 999;
 }
 
 
-.abt{
-    margin: 4%;
-}
+
 .cards{
     margin: 5%;
 }
