@@ -152,8 +152,12 @@ footer li{
 @media(max-width:900px) {
   .featurette-heading {
     font-size: 24px;
-
-  }
+}
+  .ml-4, .mx-4 {
+    margin-left: 1.5rem!important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
   cra .lead {
     font-size: .85rem;
